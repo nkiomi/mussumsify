@@ -1,12 +1,13 @@
 [tool.poetry]
-name = "a-flask-test"
-version = "0.1.0"
-description = ""
-authors = ["rochacbruno"]
+name = "mussumsify"
+version = "0.0.1"
+description = "Mussum, cacilds vidis litro abertis. Quem num gosta di mé, boa gentis num é. Detraxit consequat et quo num tendi nada. Delegadis gente finis, bibendum egestas augue arcu ut est. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!"
+authors = ["nkiomi"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+magentic = "^0.6.0"
 
 
 [tool.poetry.group.dev.dependencies]

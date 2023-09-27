@@ -8,6 +8,12 @@ Be creative! do whatever you want!
 - Import things from your .base module
 """
 
+from magentic import prompt
+
+@prompt('Add more "dude"ness to: {phrase}')
+def mussumsify(phrase: str) -> str:
+    ...
+
 
 def main():  # pragma: no cover
     """
@@ -25,4 +31,4 @@ def main():  # pragma: no cover
         * List all available tasks
         * Run an application (Flask, FastAPI, Django, etc.)
     """
-    print("This will do something")
+    print(mussumsify('Hello World!'))
