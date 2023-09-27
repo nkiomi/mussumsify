@@ -30,7 +30,11 @@ jobs:
       - name: Install project
         run: poetry install
       - name: Run linter
-        run: make lint
+        run: |
+          make virtualenv
+          python3 -m venv .venv
+          source .env/bin/activate
+          make lint
 
   tests_linux:
     needs: linter

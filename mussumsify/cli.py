@@ -10,6 +10,7 @@ Be creative! do whatever you want!
 
 from magentic import prompt
 
+
 @prompt('Add more "dude"ness to: {phrase}')
 def mussumsify(phrase: str) -> str:
     ...
